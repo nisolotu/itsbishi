@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diego's Image</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-container img {
+      max-width: 300px;
+      cursor: pointer;
+      transition: opacity 0.3s ease;
+    }
+    
+    .image-container img:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <a href="newpage.html">
+      <img src="file:///Users/diegosanchez/Desktop/itsbishi.jpg" alt="Image">
+    </a>
+  </div>
+</body>
+</html>
